@@ -3744,7 +3744,7 @@
                 observer: true,
                 observeParents: true,
                 observeSlideChildren: true,
-                slidesPerView: 1,
+                slidesPerView: "auto",
                 spaceBetween: 0,
                 autoHeight: false,
                 speed: 800,
@@ -3770,14 +3770,7 @@
                     el: ".swiper-scrollbar",
                     draggable: true
                 },
-                on: {
-                    init: function() {
-                        setScrollType();
-                    },
-                    resize: function() {
-                        setScrollType();
-                    }
-                }
+                on: {}
             });
             setScrollType();
             function setScrollType() {

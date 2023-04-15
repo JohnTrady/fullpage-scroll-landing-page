@@ -2445,12 +2445,11 @@ swiper-container:not(.swiper-watch-progress) .swiper-lazy-preloader,
 
 @media (max-width: 29.99875em) {
   .wrapper > .page .screen::after {
-    top: 1.875rem;
+    top: 0.625rem;
     right: 50%;
     -webkit-transform: translate(50%, 0);
         -ms-transform: translate(50%, 0);
             transform: translate(50%, 0);
-    font-size: 3.75rem;
   }
 
   .screen-05::after {
